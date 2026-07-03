@@ -21,9 +21,8 @@ requirements:
     - setuptools
   run:
     - django-fsm-2
-    - python >={{ python_min }},<3.11
+    - python >={{ python_min }}
     - django >=4.2
-    - django-fsm >=2
     - django-appconf
 
 test:
